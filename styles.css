@@ -1,3 +1,39 @@
-div {
-	background: red;
+p {border-style: solid;
+padding: 8px;
+background-color: white;
+}
+
+h1 {
+	margin-bottom: 30px;
+}
+
+li {
+	font-family: Arial;
+}
+table {
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+body{
+    background: url(ring.jpg)no-repeat fixed center center;}
+th {
+	font-family: Arial, serif;
+	font-size: 30px;
+}   
+.writing
+{background-color: pink;
+}
+a:visited {
+    color: orange;
+}
+#middle {
+	font-style: italic;
+  }
+
+@media screen and (max-width: 900px) {
+	ul {
+	background-color: yellow;
+	}
 }
